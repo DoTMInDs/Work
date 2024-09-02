@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1566b08547.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div id="home" class="header-container">
+        <div class="nav-container">
+            <div class="icon">
+                <h1 class="animate__animated animate__fadeInLeftBig">logo</h1>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+  <!-- sidebar -->
+            <div id="side-bar" class="side-bar-container">
+              
+                <div class="side-bar">
+                    <h3 class="side-head">Home</h3>
+                    <div class="side-bar-1">
+                        <ul class="active-home-sub">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="project.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                        <ul>
+                            <li><a href="#">Inverter inspection</a></li>
+                            <li><a href="#">Complete Diagnostics</a></li>
+                            <li><a href="#">Expert Solar Panel Repair</a></li>
+                            <li><a href="#">Updates & Monitoring</a></li>
+                        </ul>
+                </div>
+                <hr>
+                <div class="side-bar side-bar-2">
+                    <h3 class="side-head">Energy Freedom</h3>
+                    <ul>
+                        <li><a href="#">Solar Panel</a></li>
+                        <li><a href="#">How it Works</a></li>
+                        <li><a href="#">Major Power</a></li>
+                        <li><a href="#">Benefits</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="side-bar side-bar-3">
+                    <h3 class="side-head">Building Design</h3>
+                    <ul>
+                        <li><a href="#">Residential Solutions</a></li>
+                        <li><a href="#">Utility-Scale Solutions</a></li>
+                        <li><a href="#">Commercial Solutions</a></li>
+                        <li><a href="#">Real Estate Solutions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menu-bar" class="menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="background-container">
+            <div class="image-Bg">
+                <div class="color-bg"></div>
+                <div class="contact-us-container">
+                    <h2>Our projects</h2>
+                    <p class="info">
+                        Construction management aims to control the quality of a project's scope,
+                         time, and cost to maximize the project owner's satisfaction.
+                          
+                    </p>
+                    <div class="button-contact" onclick="openContact()">
+                        <button ><a href="#">contact us</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div id="projects" class="project-container">
+        <div class="contain-projects">
+            <div class="project-content">
+                <h2 class="why-us">Why we should be greening our <br>
+                     homes with plants</h2>
+                    <p class="info-project">Solar panel module series provides
+                        unparalleled value, aesthetics, and reliability
+                        for homeowners while offering layout flexibility,
+                        several mounting options, and widespread 
+                        component compatibility for installers.</p>
+            </div>
+            <div class="grid-images-container">
+                <div class="grid-down-image">
+                    <div class="grid-image">
+                        <img src="assets/solar-panel-1.jpg" alt="" class="panel">
+                    </div>
+                    <div class="project-card">
+                        <h3 class="solar-panel">Solar Panel 1</h3>
+                        <button class="btnn"><a href="">view details</a></button>
+                    </div>
+                </div>
+                <div class="grid-down-image">
+                    <div class="grid-image">
+                        <img src="assets/solar-panel.jpg" alt="" class="panel">
+                    </div>
+                    <div class="project-card">
+                        <h3 class="solar-panel">Solar Panel 2</h3>
+                        <button class="btnn"><a href="">view details</a></button>
+                    </div>
+                </div>
+                <div class="grid-down-image">
+                    <div class="grid-image">
+                        <img src="assets/solar-panel-2.jpg" alt="" class="panel">
+                    </div>
+                    <div class="project-card">
+                        <h3 class="solar-panel">Solar Panel 3</h3>
+                        <button class="btnn"><a href="">view details</a></button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="button-btn">
+            <button class="btn-1"><a href="">Learn More</a></button>
+        </div>
+    </div>
+
+    <!-----drop-down-welcome-contact-section---------->
+    <div class="reach-section">
+        <div class="call-frame">
+            <div id="close-menu" class="close-bar close-btn" onclick="closeContact()">
+                <i class="fa-solid fa-xmark fa-2xl" ></i>
+            </div>
+            <div class="const-header">
+                <h2 class="phone-us">WelCome To Our Contact Section...</h2>
+            </div>
+            <div class="conatct-row">
+                <div class="contact-col-1">
+                    <h3 class="read">Contact us through mail...</h3>
+                    <form class="email-us">
+                        <div class="form-label">
+                            <label for="">Email</label> <br> 
+                            <input type="email" name="email" id="email" placeholder="@gmail.com..." required>
+                        </div>
+                        <div class="form-label">
+                            <label for="">Password</label> <br>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                        <button class="btn form-btn">Send</button>
+                    </form>
+                </div>
+                <hr>
+                <div class="contact-col-2">
+                    <h3 class="read">Contact us through Call...</h3>
+                    <div class="thru">
+                        <a href="">+233 55 224 2244</a> <br>
+                        <a href="">+233 55 224 2244</a>
+                    </div>
+                    <br>
+                    <div class="whats-app">
+                        <p class="sup">What's App Us...</p>
+                        <a href="">+233 55 224 2244</a> <br>
+                        <a href="">+233 55 224 2244</a>
+                    </div>
+                </div>
+            </div>
+          
+            
+        </div>
+    </div>
+  
+    <div class="little-icon-to-top">
+        <p class="to-top"><a href="#">To top</a></p>
+    </div>
+    <div class="footer-section">
+        <div class="footer-container">
+            <div class="footer">
+                <div class="foot-sec">
+                    <h3 class="footer-h3">Bird Feeds</h3>
+                    <div class="footer-para">
+                        <p class="footer-p">Check out the great theme item</p>
+                        <a href="">https://hdjfhhjsdjs.com</a>
+                        <p class="footer-p">2 weeks ago</p>
+                    </div>
+                    <!-- <hr> -->
+                </div>
+                <div class="foot-sec">
+                    <div class="footer-para">
+                        <p class="footer-p">Check out the great theme item</p>
+                        <a href="">https://hdjfhhjsdjs.com</a>
+                        <p class="footer-p">2 weeks ago</p>
+                    </div>
+                    <!-- <hr> -->
+                </div>
+                <div class="foot-sec">
+                    <div class="footer-para">
+                        <p class="footer-p">Check out the great theme item</p>
+                        <a href="">https://hdjfhhjsdjs.com</a>
+                        <p class="footer-p">2 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="foot-sec">
+                    <h3 class="footer-h3">Newsletter</h3>
+                    <div class="footer-para">
+                        <p class="footer-p">Check out the great theme item</p>
+                        <a href="">https://hdjfhhjsdjs.com</a>
+                        <p class="footer-p">2 weeks ago</p>
+                    </div>
+                    <!-- <hr> -->
+                </div>
+                <div class="signup-container">
+                    <label for="email">Your Email Address</label><br>   
+                    <input type="text" id="email" placeholder="abcd@gmail.com..."> 
+                    <button class="sign"><a href="">Sign Up</a></button>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="foot-sec">
+                    <h3 class="footer-h3">Recent Projects</h3>
+                    <div class="card-proj">
+                        <div class="proj-card"></div>
+                        <div class="footer-para">
+                            <p class="footer-p">Check out the great theme item</p>
+                            <a href="">https://hdjfhhjsdjs.com</a>
+                            <p class="footer-p">2 weeks ago</p>
+                        </div>
+                    </div>
+                    <!-- <hr> -->
+                </div>
+                <div class="foot-sec">
+                    <div class="card-proj">
+                        <div class="proj-card"></div>
+                        <div class="footer-para">
+                            <p class="footer-p">Check out the great theme item</p>
+                            <a href="">https://hdjfhhjsdjs.com</a>
+                            <p class="footer-p">2 weeks ago</p>
+                        </div>
+                    </div>
+                    <!-- <hr> -->
+                </div>
+                <div class="foot-sec">
+                    <div class="card-proj">
+                        <div class="proj-card"></div>
+                        <div class="footer-para">
+                            <p class="footer-p">Check out the great theme item</p>
+                            <a href="">https://hdjfhhjsdjs.com</a>
+                            <p class="footer-p">2 weeks ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-sec">
+                <h3 class="footer-h3">Contact</h3>
+                <div class="foot-call">
+                   <li><img src="call-1.JPG" alt="" class="call" width="45"><a href="#">+1-(555)-003-1123</a></li> 
+                   <li><img src="call-1.JPG" alt="" class="call" width="45"><a href="#">+1-(555)-003-1123</a></li> 
+                </div> 
+                <div class="foot-call">
+                   <li><img src="text.PNG" alt="" class="call" width="45"><a href="#">+1-(555)-003-1123</a></li> 
+                   <li><img src="text.PNG" alt="" class="call" width="45"><a href="#">+1-(555)-003-1123</a></li> 
+                </div>
+                <div class="foot-call">
+                    <div class="send-foot">
+                        <img src="send.png" alt="" class="arrow" width="45">
+                        <p class="mail">abcdef@gmail.com</p>
+                    </div>
+                    <div class="send-foot">
+                        <img src="send.png" alt="" class="arrow" width="45">
+                        <p class="mail">abcdef@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+       
+        <div class="copyright">
+            <p class="copy">Copyright @2023 All rights | This template is made by <b>D.M.InDz</b> </p>
+        </div>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
